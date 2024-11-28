@@ -1,5 +1,7 @@
 # Book Nest
-Welcome to the Book Nest Library Management System 📚! This application offers role-based user control to streamline library management. Admins, librarians, and members each have specific permissions to manage books, issue them, and track borrowed resources. Admins can oversee the entire library, librarians can manage book loans, and members can borrow and return books effortlessly. Book Nest provides a smooth, organized approach to library management with an easy-to-use interface for efficient library operation.
+Book Nest is a Library Management System designed to facilitate easy and organized management of library resources. It offers role-based access for three user roles: Admin, Librarian, and Members. Each role has unique permissions to efficiently manage the library inventory and transactions.
+
+Admins, librarians, and members each have specific permissions to manage books, issue them, and track borrowed resources. Admins can oversee the entire library, librarians can manage book loans, and members can borrow and return books effortlessly. Book Nest provides a smooth, organized approach to library management with an easy-to-use interface for efficient library operation.
 
 
 ## Table of Contents
@@ -13,11 +15,6 @@ Welcome to the Book Nest Library Management System 📚! This application offers
 - [Contributing](#contributing)
 - [License](#license)
 
-## About the Project
-Book Nest is an advanced Library Management System designed to facilitate easy and organized management of library resources. It offers role-based access for three user roles: Admin, Librarian, and Members. Each role has unique permissions to efficiently manage the library inventory and transactions.
-
-Book Nest simplifies library management by allowing users to add books, issue books, and keep track of borrowed resources. It is built with modern technologies for a smooth, intuitive user experience and is accessible via both web and mobile devices.
-
 ## Live Demo
 - *App Link: [BookNest-App](https://booknest-app.netlify.app/)
 
@@ -27,13 +24,13 @@ Book Nest simplifies library management by allowing users to add books, issue bo
   - *Librarian*: Can view books, issue books to members, and manage borrowed books.
   - *Member*: Can browse books, borrow, and return them as needed.
 - *Book Management*: Add, view, and delete books with a user-friendly interface.
-- *Authentication*: Secure login and role management for admins, librarians, and members.
-- *Search & Filter*: Easily search and filter books by title or author.
+- *Authentication*: Secure login and role management for admins, librarians, and members using JWT.
+- *Search*: Easily search books by title.
 
 ## Technologies Used
 - *Frontend*: React, Material UI, Netlify for deployment
 - *Backend*: Node.js, Express, MongoDB, Render for deployment
-- *Database*: MongoDB Atlas
+- *Database*: MongoDB 
 - *Authentication*: JWT-based role management
 - *Image Hosting*: Cloudinary for book images
 
@@ -47,15 +44,15 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installation
 1. Clone the repository:
-   sh
-   git clone https://github.com/AK261102/Library-Management.git
+
+   git clone https://github.com/Ayush76a/BookNest.git
+    
+3. Navigate to the project directory:
    
-2. Navigate to the project directory:
-   sh
    cd m-lib
    
-3. Install dependencies for both frontend and backend:
-   sh
+4. Install dependencies for both frontend and backend:
+   
    cd frontend
    npm install
    cd ../backend
