@@ -9,16 +9,19 @@ Admins, librarians, and members each have specific permissions to manage books, 
 
 ## Testing and Dummy User
 - Dummy Admin User
+  
    Email : admin@gmail.com
    
    Password : 123456
    
 - Dummy Librarian User
+  
    Email : librarian@gmail.com
    
    Password : 123456
    
 - Dummy Member User
+  
    Email : member@gmail.com
    
    Password : 123456
