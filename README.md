@@ -35,7 +35,7 @@ Admins, librarians, and members each have specific permissions to manage books, 
 - *Role-based Access*:
   - *Admin*: Can manage books, add/remove users, and oversee overall operations.
   - *Librarian*: Can view books, issue books to members, and manage borrowed books.
-  - *Member*: Can browse books, borrow, and return them as needed.
+  - *Member*: Can browse books, borrow, and return them as needed. The borrow and read features had not been implemented as of now, since the project was meant to implement role based user access.
 - *Book Management*: Add, view, and delete books with a user-friendly interface.
 - *Middlewares*: 2 middlewares -> Protect(for Token authentication) and Verify Role(for Role Based Access and Security).
 - *Authentication*: Secure login and role management for admins, librarians, and members using JWT.
