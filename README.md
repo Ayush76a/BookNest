@@ -7,13 +7,30 @@ Admins, librarians, and members each have specific permissions to manage books, 
 ## Live Demo
 - App Link: [BookNest-App](https://booknest-app.netlify.app/)
 
+## Testing and Dummy User
+- Dummy Admin User
+   Email : admin@gmail.com
+   
+   Password : 123456
+   
+- Dummy Librarian User
+   Email : librarian@gmail.com
+   
+   Password : 123456
+   
+- Dummy Member User
+   Email : member@gmail.com
+   
+   Password : 123456
+
+
 ## Features
 - *Role-based Access*:
   - *Admin*: Can manage books, add/remove users, and oversee overall operations.
   - *Librarian*: Can view books, issue books to members, and manage borrowed books.
   - *Member*: Can browse books, borrow, and return them as needed.
 - *Book Management*: Add, view, and delete books with a user-friendly interface.
-- *Middlewares*: 2 middlewares Protect(for Token authentication) and Verify Role(for Role Based Access and Security).
+- *Middlewares*: 2 middlewares -> Protect(for Token authentication) and Verify Role(for Role Based Access and Security).
 - *Authentication*: Secure login and role management for admins, librarians, and members using JWT.
 - *Search*: Easily search books by title.
 
