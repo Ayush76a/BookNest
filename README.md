@@ -38,13 +38,16 @@ To get a local copy up and running, follow these simple steps.
     
 3. Navigate to the project directory:
    
-   cd m-lib
+   cd BookNest
    
 4. Install dependencies for both frontend and backend:
    
    cd frontend
+   
    npm install
+   
    cd ../backend
+   
    npm install
    
 
@@ -53,7 +56,7 @@ To get a local copy up and running, follow these simple steps.
 2. Add the following environment variables:
    - For frontend:
      env
-     REACT_APP_BACKEND_URL=
+      REACT_APP_BACKEND_URL=
      
    - For backend:
      env
@@ -69,13 +72,15 @@ To get a local copy up and running, follow these simple steps.
 
 ## Usage
 ### Running the Frontend
-sh
+
 cd frontend
+
 npm start
 
 ### Running the Backend
-sh
+
 cd backend
+
 npm start
 
 The frontend will be available at http://localhost:3000 and the backend at http://localhost:8080.
