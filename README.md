@@ -78,7 +78,8 @@ To get a local copy up and running, follow these simple steps.
    - For frontend:
      
      env
-      -REACT_APP_BACKEND_URL=
+     
+      - REACT_APP_BACKEND_URL=
      
    - For backend:
      env
