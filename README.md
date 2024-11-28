@@ -6,6 +6,10 @@ Admins, librarians, and members each have specific permissions to manage books, 
 
 ## Live Demo
 - App Link: [BookNest-App](https://booknest-app.netlify.app/)
+  ### NOTE 
+    - While testing please wait for some time(about 1-2 minutes), since the backend require to the get lived at the time u will be using.
+    - See the console in case the server stop responding to see the errors.
+    
 
 ## Testing and Dummy User
 - Dummy Admin User
