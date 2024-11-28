@@ -4,17 +4,6 @@ Book Nest is a Library Management System designed to facilitate easy and organiz
 Admins, librarians, and members each have specific permissions to manage books, issue them, and track borrowed resources. Admins can oversee the entire library, librarians can manage book loans, and members can borrow and return books effortlessly. Book Nest provides a smooth, organized approach to library management with an easy-to-use interface for efficient library operation.
 
 
-## Table of Contents
-- [About the Project](#about-the-project)
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Live Demo
 - *App Link: [BookNest-App](https://booknest-app.netlify.app/)
 
