@@ -76,8 +76,9 @@ To get a local copy up and running, follow these simple steps.
 1. Create a .env file in the frontend and backend directories.
 2. Add the following environment variables:
    - For frontend:
+     
      env
-      REACT_APP_BACKEND_URL=
+      -REACT_APP_BACKEND_URL=
      
    - For backend:
      env
