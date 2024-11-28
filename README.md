@@ -1,4 +1,5 @@
-# M-Lib: Library Management System
+# Book Nest
+Welcome to the Book Nest Library Management System 📚! This application offers role-based user control to streamline library management. Admins, librarians, and members each have specific permissions to manage books, issue them, and track borrowed resources. Admins can oversee the entire library, librarians can manage book loans, and members can borrow and return books effortlessly. Book Nest provides a smooth, organized approach to library management with an easy-to-use interface for efficient library operation.
 
 
 ## Table of Contents
@@ -13,13 +14,12 @@
 - [License](#license)
 
 ## About the Project
-M-Lib is an advanced Library Management System designed to facilitate easy and organized management of library resources. It offers role-based access for three user roles: Admin, Librarian, and Members. Each role has unique permissions to efficiently manage the library inventory and transactions.
+Book Nest is an advanced Library Management System designed to facilitate easy and organized management of library resources. It offers role-based access for three user roles: Admin, Librarian, and Members. Each role has unique permissions to efficiently manage the library inventory and transactions.
 
-M-Lib simplifies library management by allowing users to add books, issue books, and keep track of borrowed resources. It is built with modern technologies for a smooth, intuitive user experience and is accessible via both web and mobile devices.
+Book Nest simplifies library management by allowing users to add books, issue books, and keep track of borrowed resources. It is built with modern technologies for a smooth, intuitive user experience and is accessible via both web and mobile devices.
 
 ## Live Demo
-- *Frontend*: [BookNest Frontend](https://booknest-app.netlify.app/)
-- *Backend*: [BookNest Backend](https://vrv-backend-gh86.onrender.com)
+- *App Link: [BookNest-App](https://booknest-app.netlify.app/)
 
 ## Features
 - *Role-based Access*:
