@@ -18,8 +18,8 @@ M-Lib is an advanced Library Management System designed to facilitate easy and o
 M-Lib simplifies library management by allowing users to add books, issue books, and keep track of borrowed resources. It is built with modern technologies for a smooth, intuitive user experience and is accessible via both web and mobile devices.
 
 ## Live Demo
-- *Frontend*: [M-Lib Frontend](https://booknest-app.netlify.app/))
-- *Backend*: [M-Lib Backend](https://vrv-backend-gh86.onrender.com)
+- *Frontend*: [BookNest Frontend](https://booknest-app.netlify.app/))
+- *Backend*: [BookNest Backend](https://vrv-backend-gh86.onrender.com)
 
 ## Features
 - *Role-based Access*:
