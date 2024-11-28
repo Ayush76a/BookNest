@@ -82,13 +82,13 @@ To get a local copy up and running, follow these simple steps.
    - For backend:
      env
 
-       PORT= 
-       MONGO_URI=
-       JWT_SECRET=
-       CLOUDINARY_CLOUD_NAME=
-       CLOUDINARY_API_KEY=
-       CLOUDINARY_API_SECRET=
-       FRONTEND_URL=
+       - PORT= 
+       - MONGO_URI=
+       - JWT_SECRET=
+       - CLOUDINARY_CLOUD_NAME=
+       - CLOUDINARY_API_KEY=
+       - CLOUDINARY_API_SECRET=
+       - FRONTEND_URL=
      
 
 ## Usage
