@@ -5,7 +5,7 @@ Admins, librarians, and members each have specific permissions to manage books, 
 
 
 ## Live Demo
-- *App Link: [BookNest-App](https://booknest-app.netlify.app/)
+- App Link: [BookNest-App](https://booknest-app.netlify.app/)
 
 ## Features
 - *Role-based Access*:
