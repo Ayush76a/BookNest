@@ -55,13 +55,13 @@ const Login = () => {
             variant="contained"
             onClick={handleLogin}
             sx={{
-              backgroundColor: '#2c3e50', // Navbar color
+              backgroundColor: '#2c3e50', 
               color: '#fff',
               padding: '10px 20px',
               fontSize: '16px',
               borderRadius: '8px',
               '&:hover': {
-                backgroundColor: '#34495e', // Slightly lighter shade for hover effect
+                backgroundColor: '#34495e', 
               },
             }}
           >

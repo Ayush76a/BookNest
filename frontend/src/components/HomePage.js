@@ -27,7 +27,7 @@ const HomePage = () => {
             display: 'flex', 
             justifyContent: 'center', 
             gap: 3,
-            marginTop: '40px' // Increase margin between description and buttons
+            marginTop: '40px' 
           }}
         >
           <Button 
@@ -38,10 +38,10 @@ const HomePage = () => {
               padding: '10px 20px', 
               fontSize: '16px', 
               borderRadius: '8px',
-              backgroundColor: '#2c3e50', // Navbar color
+              backgroundColor: '#2c3e50', 
               color: '#fff',
               '&:hover': {
-                backgroundColor: '#34495e', // Slightly lighter shade
+                backgroundColor: '#34495e', 
               },
             }}
           >
@@ -55,10 +55,10 @@ const HomePage = () => {
               padding: '10px 20px', 
               fontSize: '16px', 
               borderRadius: '8px',
-              borderColor: '#2c3e50', // Navbar color
+              borderColor: '#2c3e50',
               color: '#2c3e50',
               '&:hover': {
-                backgroundColor: '#ecf0f1', // Light gray on hover
+                backgroundColor: '#ecf0f1', 
               },
             }}
           >

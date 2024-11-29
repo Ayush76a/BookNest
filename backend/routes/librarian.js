@@ -4,7 +4,7 @@ const User = require('../models/User');
 const router = express.Router();
 const protect = require('../middlewares/protect');
 
-// Example protected route to get user profile (accessible to authenticated users)
+// protected route to get user profile (accessible to authenticated users)
 router.get('/profile', protect, async (req, res) => {
   try {
     const user = await User.findById(req.user._id).select('-password');

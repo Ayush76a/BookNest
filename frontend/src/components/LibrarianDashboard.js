@@ -24,7 +24,7 @@ const LibrarianDashboard = () => {
 
   return (
     <Container maxWidth="lg">
-      {/* Greeting Section */}
+      
       <Box sx={{ mt: 4, mb: 4, textAlign: 'center' }}>
         <Typography variant="body1" sx={{ mb: 2 }}>
           Your Email: {librarianProfile.email}

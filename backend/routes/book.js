@@ -22,7 +22,7 @@ const storage = new CloudinaryStorage({
 const upload = multer({ storage });
 
 
-// Route to add a book (only accessible by Admin)
+// Route to add a book (only accessible by Admin -> the admin can also view this)
 router.post('/add', protect, verifyRole('Admin'), upload.single('image'), async (req, res) => {
   try {
     const { title, author, copies } = req.body;
@@ -67,7 +67,7 @@ router.get('/', protect,  async (req, res) => {
 });
 
 
-
+// route to issue a book (accessible only by librarian)
 router.post('/issue', protect, verifyRole('Librarian'), async (req, res) => {
   try {
     const { bookId } = req.body;

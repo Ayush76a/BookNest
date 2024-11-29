@@ -10,7 +10,7 @@ router.post('/register', async (req, res) => {
     const { name, email, role, password } = req.body;
 
     // Log the request data to ensure it's being received correctly
-    console.log("Register request data:", req.body);
+    // console.log("Register request data:", req.body);
 
     // Check if user already exists
     const existingUser = await User.findOne({ email });

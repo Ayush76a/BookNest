@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Adjust the path if necessary
+import logo from '../assets/logo.png'; 
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,9 +20,9 @@ const Navbar = () => {
       sx={{ backgroundColor: '#2c3e50', padding: '0 16px' }}
     >
       <Toolbar>
-        {/* Add the logo image */}
+       
         <img
-          src={logo} // Use the imported logo
+          src={logo} 
           alt="BookNest Logo"
           style={{ height: '40px', marginRight: '16px' }}
         />
