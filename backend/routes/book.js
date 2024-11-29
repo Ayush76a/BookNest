@@ -96,8 +96,8 @@ router.post('/issue', protect, verifyRole('Librarian'), async (req, res) => {
 });
 
 
-// Route to get all issued books (accessible by all roles)
-router.get('/issued-books', async (req, res) => {
+// Route to get all issued books (accessible by Librarian Only)
+router.get('/issued-books', protect, verifyRole('Librarian'), async (req, res) => {
   try {
     const books = await Book.find({ issued:true});
     res.status(200).json(books);
